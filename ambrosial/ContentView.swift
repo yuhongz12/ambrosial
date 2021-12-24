@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  ambrosial
 //
-//  Created by yuhongMac on 10/21/21.
-//
+
 
 import SwiftUI
 
@@ -75,7 +74,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-// this is a line of code
-// hellow world
