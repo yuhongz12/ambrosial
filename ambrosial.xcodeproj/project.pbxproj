@@ -26,6 +26,9 @@
 		CE8CC3B4277950F4009E1D1E /* BeanElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3B3277950F4009E1D1E /* BeanElement.swift */; };
 		CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */; };
 		CEC63ACC277A7E9D00A2DD90 /* coffeefilterData.json in Resources */ = {isa = PBXBuildFile; fileRef = CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */; };
+		E8BD67DD2780F15D003A6F07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67DC2780F15D003A6F07 /* HomeView.swift */; };
+		E8BD67DF2780F215003A6F07 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67DE2780F215003A6F07 /* SettingView.swift */; };
+		E8BD67E12780F280003A6F07 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67E02780F280003A6F07 /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		CE8CC3B3277950F4009E1D1E /* BeanElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanElement.swift; sourceTree = "<group>"; };
 		CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFilterElement.swift; sourceTree = "<group>"; };
 		CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffeefilterData.json; sourceTree = "<group>"; };
+		E8BD67DC2780F15D003A6F07 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E8BD67DE2780F215003A6F07 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		E8BD67E02780F280003A6F07 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				CE8CC3B3277950F4009E1D1E /* BeanElement.swift */,
 				CE8CC3B127794FFB009E1D1E /* CoffeeFilterView.swift */,
 				CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */,
+				E8BD67DC2780F15D003A6F07 /* HomeView.swift */,
+				E8BD67DE2780F215003A6F07 /* SettingView.swift */,
+				E8BD67E02780F280003A6F07 /* RecipeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,10 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8CC3B227794FFB009E1D1E /* CoffeeFilterView.swift in Sources */,
+				E8BD67DD2780F15D003A6F07 /* HomeView.swift in Sources */,
 				CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */,
 				5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */,
 				CE8CC39B27792702009E1D1E /* BrewMethod.swift in Sources */,
 				5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */,
+				E8BD67DF2780F215003A6F07 /* SettingView.swift in Sources */,
 				CE8CC3AC27794BFF009E1D1E /* Bean.swift in Sources */,
 				CE8CC3AA27794BE9009E1D1E /* BeanView.swift in Sources */,
 				CE8CC39D27792A7C009E1D1E /* CoffeeFilter.swift in Sources */,
@@ -226,6 +237,7 @@
 				CE8CC3B4277950F4009E1D1E /* BeanElement.swift in Sources */,
 				CE8CC3A827794604009E1D1E /* BrewMethodElement.swift in Sources */,
 				CE8CC398277922C4009E1D1E /* BrewMethodView.swift in Sources */,
+				E8BD67E12780F280003A6F07 /* RecipeView.swift in Sources */,
 				CE8CC3A627793117009E1D1E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
