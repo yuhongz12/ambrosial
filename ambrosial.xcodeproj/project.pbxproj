@@ -29,6 +29,8 @@
 		E8BD67DD2780F15D003A6F07 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67DC2780F15D003A6F07 /* HomeView.swift */; };
 		E8BD67DF2780F215003A6F07 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67DE2780F215003A6F07 /* SettingView.swift */; };
 		E8BD67E12780F280003A6F07 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67E02780F280003A6F07 /* RecipeView.swift */; };
+		E8BD67E32780F447003A6F07 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD67E22780F447003A6F07 /* Recipe.swift */; };
+		E8BD67EA2780FA60003A6F07 /* recipeList.json in Resources */ = {isa = PBXBuildFile; fileRef = E8BD67E92780FA60003A6F07 /* recipeList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		E8BD67DC2780F15D003A6F07 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E8BD67DE2780F215003A6F07 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		E8BD67E02780F280003A6F07 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		E8BD67E22780F447003A6F07 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E8BD67E92780FA60003A6F07 /* recipeList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipeList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				CE8CC39A27792702009E1D1E /* BrewMethod.swift */,
 				CE8CC39C27792A7C009E1D1E /* CoffeeFilter.swift */,
 				CE8CC3AB27794BFF009E1D1E /* Bean.swift */,
+				E8BD67E22780F447003A6F07 /* Recipe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		CE8CC39F27792C08009E1D1E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E8BD67E92780FA60003A6F07 /* recipeList.json */,
 				CE8CC3A327792D06009E1D1E /* brewmethodData.json */,
 				CE8CC3AF27794D0D009E1D1E /* beanData.json */,
 				CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */,
@@ -213,6 +219,7 @@
 				CE8CC3A427792D06009E1D1E /* brewmethodData.json in Resources */,
 				CEC63ACC277A7E9D00A2DD90 /* coffeefilterData.json in Resources */,
 				5C3FC3B027226C35004B4A1E /* Assets.xcassets in Resources */,
+				E8BD67EA2780FA60003A6F07 /* recipeList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +235,7 @@
 				CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */,
 				5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */,
 				CE8CC39B27792702009E1D1E /* BrewMethod.swift in Sources */,
+				E8BD67E32780F447003A6F07 /* Recipe.swift in Sources */,
 				5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */,
 				E8BD67DF2780F215003A6F07 /* SettingView.swift in Sources */,
 				CE8CC3AC27794BFF009E1D1E /* Bean.swift in Sources */,

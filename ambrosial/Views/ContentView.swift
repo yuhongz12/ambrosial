@@ -1,18 +1,10 @@
 //
-//  ContentView.swift
-//  ambrosial
-//
-//  Created by yuhongMac on 10/21/21.
-//
-
 // TASKS:
 // 1) (DONE) Troubleshoot view stack appearance that is visually nested (ie. pushed view does not cover entire screen)
 // 2) (DONE) Program CoffeeFilterView() and CoffeeFilterElement()
 // 3) Skip to programming Recipe summary and Recipe (model data), write to database file (.json, for now)
 // 4) Make it so that when a brew method is picked, the next view only displays compatibleFilters
-// Hi Yuhong
-// fewaf
-// onion
+
 
 import SwiftUI
 

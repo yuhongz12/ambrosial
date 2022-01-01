@@ -1,0 +1,63 @@
+[
+    {
+        "id" : 1001,
+        "isFavorite" : true,
+        "brewMethod" : "Aeropress",
+        "coffeeFilter" : "Aeropress Original Filter",
+        "ratioBean" : 1,
+        "ratioWater" : 10,
+        "bean" : "Ethiopia",
+        "grindSize" : "course",
+        "temperature" : 95,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    {
+        "id" : 1002,
+        "isFavorite" : false,
+        "brewMethod" : "Hario Plastic V60",
+        "coffeeFilter" : "Cafec Abaca V60",
+        "ratioBean" : 1,
+        "ratioWater" : 20,
+        "bean" : "Ethiopia",
+        "grindSize" : "fine",
+        "temperature" : 90,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    {
+        "id" : 1003,
+        "isFavorite" : true,
+        "brewMethod" : "Hario Ceramic V60",
+        "coffeeFilter" : "Cafec Abaca V60",
+        "ratioBean" : 1,
+        "ratioWater" : 20,
+        "bean" : "Kenyan",
+        "grindSize" : "fine",
+        "temperature" : 90,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    {
+        "id" : 1004,
+        "isFavorite" : true,
+        "brewMethod" : "Aeropress",
+        "coffeeFilter" : "Cafec Abaca V60",
+        "ratioBean" : 1,
+        "ratioWater" : 20,
+        "bean" : "Arabica",
+        "grindSize" : "fine",
+        "temperature" : 100,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    {
+        "id" : 1005,
+        "isFavorite" : false,
+        "brewMethod" : "Hario Plastic V60",
+        "coffeeFilter" : "Cafec Abaca V60",
+        "ratioBean" : 1,
+        "ratioWater" : 20,
+        "bean" : "Ethiopia",
+        "grindSize" : "fine",
+        "temperature" : 90,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    
+]
