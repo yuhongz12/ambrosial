@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AB27226C32004B4A1E /* ambrosialApp.swift */; };
-		5C3FC3AE27226C32004B4A1E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AD27226C32004B4A1E /* HomePage.swift */; };
+		5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AD27226C32004B4A1E /* ContentView.swift */; };
 		5C3FC3B027226C35004B4A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AF27226C35004B4A1E /* Assets.xcassets */; };
 		5C3FC3B327226C35004B4A1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FC3B227226C35004B4A1E /* Preview Assets.xcassets */; };
 		CE8CC3942776C202009E1D1E /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = CE8CC3932776C202009E1D1E /* NavigationStack */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		5C3FC3A827226C32004B4A1E /* ambrosial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ambrosial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3FC3AB27226C32004B4A1E /* ambrosialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ambrosialApp.swift; sourceTree = "<group>"; };
-		5C3FC3AD27226C32004B4A1E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		5C3FC3AD27226C32004B4A1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C3FC3AF27226C35004B4A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3FC3B227226C35004B4A1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8CC3952776C8AE009E1D1E /* FullSwipePopExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSwipePopExtension.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		CE8CC399277922E2009E1D1E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5C3FC3AD27226C32004B4A1E /* HomePage.swift */,
+				5C3FC3AD27226C32004B4A1E /* ContentView.swift */,
 				CE8CC397277922C4009E1D1E /* BrewMethodView.swift */,
 				CE8CC3A727794604009E1D1E /* BrewMethodElement.swift */,
 				CE8CC3A927794BE9009E1D1E /* BeanView.swift */,
@@ -216,7 +216,7 @@
 			files = (
 				CE8CC3B227794FFB009E1D1E /* CoffeeFilterView.swift in Sources */,
 				CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */,
-				5C3FC3AE27226C32004B4A1E /* HomePage.swift in Sources */,
+				5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */,
 				CE8CC39B27792702009E1D1E /* BrewMethod.swift in Sources */,
 				5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */,
 				CE8CC3AC27794BFF009E1D1E /* Bean.swift in Sources */,

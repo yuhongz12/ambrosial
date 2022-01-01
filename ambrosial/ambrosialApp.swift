@@ -11,7 +11,7 @@ import SwiftUI
 struct ambrosialApp: App {
     var body: some Scene {
         WindowGroup {
-            HomePage()
+            ContentView()
         }
     }
 }

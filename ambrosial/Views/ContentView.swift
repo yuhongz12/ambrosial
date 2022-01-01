@@ -19,7 +19,7 @@ extension UIScreen{
     static let screenSize = UIScreen.main.bounds
 }
 
-struct HomePage: View {
+struct ContentView: View {
     
     @EnvironmentObject var modelData: ModelData
     
@@ -97,9 +97,9 @@ struct HomePage: View {
 
 
 
-struct HomePage_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePage()
+        ContentView()
     }
 }
 
