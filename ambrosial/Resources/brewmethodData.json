@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1001,
+        "name": "Hario Plastic V60 01",
+        "brand": "Hario",
+        "compatibleFilters":
+            ["Hario 100pc bagged",
+            "Hario 40pc boxed",
+            "Cafec Abaca V60"],
+        "imageName": "v60-clipart"
+    },
+    {
+        "id": 1002,
+        "name": "Hario Ceramic V60 02",
+        "brand": "Hario",
+        "compatibleFilters":
+            ["Hario 100pc bagged",
+            "Hario 40pc boxed",
+            "Cafec Abaca V60"],
+        "imageName": "v60-clipart"
+    },
+    {
+        "id": 1003,
+        "name": "Aeropress",
+        "brand": "Aeropress",
+        "compatibleFilters":
+            ["Aeropress original filter",
+            "Aesir round filter"],
+        "imageName": "aeropress-clipart"
+    }
+]
+

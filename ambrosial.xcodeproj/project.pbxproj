@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AB27226C32004B4A1E /* ambrosialApp.swift */; };
-		5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AD27226C32004B4A1E /* ContentView.swift */; };
+		5C3FC3AE27226C32004B4A1E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AD27226C32004B4A1E /* HomePage.swift */; };
 		5C3FC3B027226C35004B4A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FC3AF27226C35004B4A1E /* Assets.xcassets */; };
 		5C3FC3B327226C35004B4A1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FC3B227226C35004B4A1E /* Preview Assets.xcassets */; };
+		CE8CC3942776C202009E1D1E /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = CE8CC3932776C202009E1D1E /* NavigationStack */; };
+		CE8CC3962776C8AE009E1D1E /* FullSwipePopExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3952776C8AE009E1D1E /* FullSwipePopExtension.swift */; };
+		CE8CC398277922C4009E1D1E /* BrewMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC397277922C4009E1D1E /* BrewMethodView.swift */; };
+		CE8CC39B27792702009E1D1E /* BrewMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC39A27792702009E1D1E /* BrewMethod.swift */; };
+		CE8CC39D27792A7C009E1D1E /* CoffeeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC39C27792A7C009E1D1E /* CoffeeFilter.swift */; };
+		CE8CC3A427792D06009E1D1E /* brewmethodData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8CC3A327792D06009E1D1E /* brewmethodData.json */; };
+		CE8CC3A627793117009E1D1E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3A527793117009E1D1E /* ModelData.swift */; };
+		CE8CC3A827794604009E1D1E /* BrewMethodElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3A727794604009E1D1E /* BrewMethodElement.swift */; };
+		CE8CC3AA27794BE9009E1D1E /* BeanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3A927794BE9009E1D1E /* BeanView.swift */; };
+		CE8CC3AC27794BFF009E1D1E /* Bean.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3AB27794BFF009E1D1E /* Bean.swift */; };
+		CE8CC3B027794D0D009E1D1E /* beanData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8CC3AF27794D0D009E1D1E /* beanData.json */; };
+		CE8CC3B227794FFB009E1D1E /* CoffeeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3B127794FFB009E1D1E /* CoffeeFilterView.swift */; };
+		CE8CC3B4277950F4009E1D1E /* BeanElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CC3B3277950F4009E1D1E /* BeanElement.swift */; };
+		CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */; };
+		CEC63ACC277A7E9D00A2DD90 /* coffeefilterData.json in Resources */ = {isa = PBXBuildFile; fileRef = CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C3FC3A827226C32004B4A1E /* ambrosial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ambrosial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3FC3AB27226C32004B4A1E /* ambrosialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ambrosialApp.swift; sourceTree = "<group>"; };
-		5C3FC3AD27226C32004B4A1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C3FC3AD27226C32004B4A1E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		5C3FC3AF27226C35004B4A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3FC3B227226C35004B4A1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8CC3952776C8AE009E1D1E /* FullSwipePopExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSwipePopExtension.swift; sourceTree = "<group>"; };
+		CE8CC397277922C4009E1D1E /* BrewMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethodView.swift; sourceTree = "<group>"; };
+		CE8CC39A27792702009E1D1E /* BrewMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethod.swift; sourceTree = "<group>"; };
+		CE8CC39C27792A7C009E1D1E /* CoffeeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFilter.swift; sourceTree = "<group>"; };
+		CE8CC3A327792D06009E1D1E /* brewmethodData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brewmethodData.json; sourceTree = "<group>"; };
+		CE8CC3A527793117009E1D1E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CE8CC3A727794604009E1D1E /* BrewMethodElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethodElement.swift; sourceTree = "<group>"; };
+		CE8CC3A927794BE9009E1D1E /* BeanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanView.swift; sourceTree = "<group>"; };
+		CE8CC3AB27794BFF009E1D1E /* Bean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bean.swift; sourceTree = "<group>"; };
+		CE8CC3AF27794D0D009E1D1E /* beanData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beanData.json; sourceTree = "<group>"; };
+		CE8CC3B127794FFB009E1D1E /* CoffeeFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFilterView.swift; sourceTree = "<group>"; };
+		CE8CC3B3277950F4009E1D1E /* BeanElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanElement.swift; sourceTree = "<group>"; };
+		CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFilterElement.swift; sourceTree = "<group>"; };
+		CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffeefilterData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8CC3942776C202009E1D1E /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				5C3FC3AB27226C32004B4A1E /* ambrosialApp.swift */,
-				5C3FC3AD27226C32004B4A1E /* ContentView.swift */,
+				CE8CC399277922E2009E1D1E /* Views */,
+				CE8CC39E27792BAD009E1D1E /* Model */,
+				CE8CC39F27792C08009E1D1E /* Resources */,
 				5C3FC3AF27226C35004B4A1E /* Assets.xcassets */,
 				5C3FC3B127226C35004B4A1E /* Preview Content */,
+				CE8CC3952776C8AE009E1D1E /* FullSwipePopExtension.swift */,
 			);
 			path = ambrosial;
 			sourceTree = "<group>";
@@ -65,6 +98,41 @@
 				5C3FC3B227226C35004B4A1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8CC399277922E2009E1D1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C3FC3AD27226C32004B4A1E /* HomePage.swift */,
+				CE8CC397277922C4009E1D1E /* BrewMethodView.swift */,
+				CE8CC3A727794604009E1D1E /* BrewMethodElement.swift */,
+				CE8CC3A927794BE9009E1D1E /* BeanView.swift */,
+				CE8CC3B3277950F4009E1D1E /* BeanElement.swift */,
+				CE8CC3B127794FFB009E1D1E /* CoffeeFilterView.swift */,
+				CEC63AC9277A7D1400A2DD90 /* CoffeeFilterElement.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8CC39E27792BAD009E1D1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CC3A527793117009E1D1E /* ModelData.swift */,
+				CE8CC39A27792702009E1D1E /* BrewMethod.swift */,
+				CE8CC39C27792A7C009E1D1E /* CoffeeFilter.swift */,
+				CE8CC3AB27794BFF009E1D1E /* Bean.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8CC39F27792C08009E1D1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CC3A327792D06009E1D1E /* brewmethodData.json */,
+				CE8CC3AF27794D0D009E1D1E /* beanData.json */,
+				CEC63ACB277A7E9D00A2DD90 /* coffeefilterData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +151,9 @@
 			dependencies = (
 			);
 			name = ambrosial;
+			packageProductDependencies = (
+				CE8CC3932776C202009E1D1E /* NavigationStack */,
+			);
 			productName = ambrosial;
 			productReference = 5C3FC3A827226C32004B4A1E /* ambrosial.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 5C3FC39F27226C32004B4A1E;
+			packageReferences = (
+				CE8CC3922776C202009E1D1E /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
 			productRefGroup = 5C3FC3A927226C32004B4A1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3FC3B327226C35004B4A1E /* Preview Assets.xcassets in Resources */,
+				CE8CC3B027794D0D009E1D1E /* beanData.json in Resources */,
+				CE8CC3A427792D06009E1D1E /* brewmethodData.json in Resources */,
+				CEC63ACC277A7E9D00A2DD90 /* coffeefilterData.json in Resources */,
 				5C3FC3B027226C35004B4A1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3FC3AE27226C32004B4A1E /* ContentView.swift in Sources */,
+				CE8CC3B227794FFB009E1D1E /* CoffeeFilterView.swift in Sources */,
+				CEC63ACA277A7D1400A2DD90 /* CoffeeFilterElement.swift in Sources */,
+				5C3FC3AE27226C32004B4A1E /* HomePage.swift in Sources */,
+				CE8CC39B27792702009E1D1E /* BrewMethod.swift in Sources */,
 				5C3FC3AC27226C32004B4A1E /* ambrosialApp.swift in Sources */,
+				CE8CC3AC27794BFF009E1D1E /* Bean.swift in Sources */,
+				CE8CC3AA27794BE9009E1D1E /* BeanView.swift in Sources */,
+				CE8CC39D27792A7C009E1D1E /* CoffeeFilter.swift in Sources */,
+				CE8CC3962776C8AE009E1D1E /* FullSwipePopExtension.swift in Sources */,
+				CE8CC3B4277950F4009E1D1E /* BeanElement.swift in Sources */,
+				CE8CC3A827794604009E1D1E /* BrewMethodElement.swift in Sources */,
+				CE8CC398277922C4009E1D1E /* BrewMethodView.swift in Sources */,
+				CE8CC3A627793117009E1D1E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +431,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE8CC3922776C202009E1D1E /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE8CC3932776C202009E1D1E /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8CC3922776C202009E1D1E /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C3FC3A027226C32004B4A1E /* Project object */;
 }

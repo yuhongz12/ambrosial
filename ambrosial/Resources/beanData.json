@@ -1,0 +1,26 @@
+[
+    {
+        "id": 121,
+        "name": "Ethiopia Laayyoo",
+        "roastLevel": "Medium-Light",
+        "roasterName": "Ceremony Coffee Roasters",
+        "tastingNotes": "blueberry, hibiscus, marshmallow",
+        "description": "ipsi goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas"
+    },
+    {
+        "id": 102,
+        "name": "Peru Monte Grande",
+        "roastLevel": "Dark",
+        "roasterName": "Atlas Coffee Club",
+        "tastingNotes": "milk chocolate, caramel, cream",
+        "description": "goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng lux veritas"
+    },
+    {
+        "id": 253,
+        "name": "Ethiopia Suke Quto",
+        "roastLevel": "Medium",
+        "roasterName": "Stumptown Coffee Roasters",
+        "tastingNotes": "jasmine, candied lime",
+        "description": "mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng mi goreng lux veritas ipsi goreng lux vanitas carne"
+    }
+]
