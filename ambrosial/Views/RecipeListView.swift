@@ -10,24 +10,24 @@ import SwiftUI
 struct RecipeListView: View {
     @EnvironmentObject var modelData: ModelData
     
-    @State private var showFavoritesOnly = false
+    @State private var showFavoriteOnly = false
     
     var filteredRecipes: [Recipe] {
         modelData.recipes.filter { recipe in
-            (!showFavoritesOnly || recipe.isFavorite)
+            (!showFavoriteOnly || recipe.isFavorite)
         }
     }
     
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $showFavoritesOnly) {
+                Toggle(isOn: $showFavoriteOnly) {
                     Text("Favorites Only")
                 }
                 ForEach(filteredRecipes) { recipe in
                     NavigationLink {
                         RecipeDetailView(recipe: recipe)
-                            .environmentObject(ModelData())
+                            .environmentObject(modelData)
                     } label: {
                         RecipeElement(recipe: recipe)
                     }

@@ -9,12 +9,21 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     
+    @EnvironmentObject var modelData: ModelData
+    
     var recipe: Recipe
+    
+    var recipeIndex: Int {
+        modelData.recipes.firstIndex(where: { $0.id == recipe.id })!
+    }
     
     var body: some View {
         VStack (alignment: .leading) {
-            Text(recipe.recipeName)
-                .font(.title)
+            HStack {
+                Text(recipe.recipeName)
+                    .font(.title)
+                FavoriteButton(isSet: $modelData.recipes[recipeIndex].isFavorite)
+            }
             Text("Date Created: " + recipe.recipeDate)
                 .font(.title3)
                 .foregroundColor(.secondary)
@@ -35,9 +44,12 @@ struct RecipeDetailView: View {
 
 struct RecipeDetailView_Previews: PreviewProvider {
     
+    static let modelData = ModelData()
+    
     static var recipe = ModelData().recipes
     
     static var previews: some View {
-        RecipeDetailView(recipe: recipe[0])
+        RecipeDetailView(recipe: modelData.recipes[0])
+            .environmentObject(modelData)
     }
 }

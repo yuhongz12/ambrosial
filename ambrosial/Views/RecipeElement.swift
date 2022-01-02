@@ -28,8 +28,6 @@ struct RecipeElement: View {
             if recipe.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
-            } else {
-                Image(systemName: "star")
             }
         }
         .padding()
@@ -38,12 +36,12 @@ struct RecipeElement: View {
 
 struct RecipeElement_Previews: PreviewProvider {
     
-    static var recipe = ModelData().recipes
+    static var recipes = ModelData().recipes
     
     static var previews: some View {
         Group {
-            RecipeElement(recipe: recipe[0])
-            RecipeElement(recipe: recipe[1])
+            RecipeElement(recipe: recipes[0])
+            RecipeElement(recipe: recipes[1])
         }
             .previewLayout(.fixed(width: 300, height: 100))
     }
