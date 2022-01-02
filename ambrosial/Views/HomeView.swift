@@ -8,71 +8,68 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var modelData: ModelData
+    
+    private var allRecipes: [Recipe] {
+        modelData.recipes
+    }
+
+    private var favoriteRecipes: [Recipe] {
+        allRecipes.filter { recipe in
+            recipe.isFavorite
+        }
+    }
+
     var body: some View {
+        
         NavigationView {
-            
-            VStack {
-                
-                HStack {
-                    
-                    Text("Home")
-                        .font(.title)
-                        .foregroundColor(Color.black)
-                        .bold()
-                        .multilineTextAlignment(.center)
-                        .padding(.all, UIScreen.screenWidth * 0.05)
-                    
-                    Spacer()
-                    
-                }
-                
-                Spacer()
-                
-                // Starred Recipe Element
-                VStack {
-                    
-                    HStack {
-                        
-                        Text("Favorites")
-                            .font(.title2)
-                            .foregroundColor(Color.black)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding(.all, UIScreen.screenWidth * 0.05)
-                        
-                        Spacer()
-                        
-                    }
-                }
-                
-                Spacer()
-                
-                // Recipe List Scroll Bar
-                
-                ScrollView {
-                    VStack {
-                        // Should retrieve list from a database and sort into an array and display
-                        ForEach(1...40, id: \.self) {
-                            Text("Coffee Recipe \($0)")
-                                .frame(width: UIScreen.screenWidth * 0.9, alignment: .leading)
+            ZStack {
+                List {
+                    Section (header: Text("Recent Recipes")) {
+                        if allRecipes.isEmpty {
+                            Text("You have no recipes. Please create one!")
+                        } else {
+                            ForEach (allRecipes.prefix(3)) { recipe in
+                                NavigationLink {
+                                    RecipeDetailView(recipe: recipe)
+                                } label: {
+                                    RecipeElement(recipe: recipe)
+                                }
+                            }
                         }
                     }
-                }.frame(width: UIScreen.screenWidth,
-                        height: UIScreen.screenHeight * 0.3)
-                
-                Spacer()
-                
-                HStack {
-                    Spacer()
-                    NavigationLink {
-                        BrewMethodView()
-                            .environmentObject(ModelData())
-                    } label: {
-                        Image("plus-in-circle")
-                            .resizable()
-                            .frame(width: 60.0, height: 60.0)
-                            .padding()
+                    
+                    Section (header: Text("Favorite Recipes")) {
+                        if favoriteRecipes.isEmpty {
+                            Text("You have no Favorite Recipes")
+                        } else {
+                            ForEach (favoriteRecipes.prefix(3)) { recipe in
+                                NavigationLink {
+                                    RecipeDetailView(recipe: recipe)
+                                } label: {
+                                    RecipeElement(recipe: recipe)
+
+                                }
+                            }
+                        }
                     }
+                }
+                .navigationTitle("Home")
+                
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        NavigationLink {
+                            BrewMethodView()
+                        } label: {
+                            Image(systemName: "plus.circle.fill")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                        }
+                    }
+                    .padding()
                 }
             }
         }
@@ -82,5 +79,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(ModelData())
     }
 }

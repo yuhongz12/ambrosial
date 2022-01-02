@@ -9,12 +9,12 @@ import SwiftUI
 
 struct BrewMethodView: View {
     
-    @EnvironmentObject var modelData: ModelData
+//    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         
         List {
-            ForEach(modelData.brewMethods) { brewMethod in
+            ForEach(ModelData().brewMethods) { brewMethod in
                 NavigationLink {
                     CoffeeFilterView()
                         .environmentObject(ModelData())

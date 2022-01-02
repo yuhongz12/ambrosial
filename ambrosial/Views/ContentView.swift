@@ -5,7 +5,6 @@
 // 3) Skip to programming Recipe summary and Recipe (model data), write to database file (.json, for now)
 // 4) Make it so that when a brew method is picked, the next view only displays compatibleFilters
 
-
 import SwiftUI
 
 extension UIScreen{
