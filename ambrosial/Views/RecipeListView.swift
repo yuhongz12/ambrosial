@@ -24,12 +24,19 @@ struct RecipeListView: View {
                 Toggle(isOn: $showFavoriteOnly) {
                     Text("Favorites Only")
                 }
-                ForEach(filteredRecipes) { recipe in
-                    NavigationLink {
-                        RecipeDetailView(recipe: recipe)
-                            .environmentObject(modelData)
-                    } label: {
-                        RecipeElement(recipe: recipe)
+                if (filteredRecipes.isEmpty && !showFavoriteOnly) {
+                    Text("You have no recipes. Please create one!")
+                }
+                if (filteredRecipes.isEmpty && showFavoriteOnly) {
+                    Text("You have no Favorite Recipes")
+                } else {
+                    ForEach(filteredRecipes) { recipe in
+                        NavigationLink {
+                            RecipeDetailView(recipe: recipe)
+                                .environmentObject(modelData)
+                        } label: {
+                            RecipeElement(recipe: recipe)
+                        }
                     }
                 }
             }.navigationTitle("All Recipes")
