@@ -24,7 +24,13 @@ struct RecipeElement: View {
                 Spacer()
             }
             Spacer()
-            Image(systemName: "star")
+            
+            if recipe.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            } else {
+                Image(systemName: "star")
+            }
         }
         .padding()
     }

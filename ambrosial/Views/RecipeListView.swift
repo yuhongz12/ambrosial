@@ -10,10 +10,21 @@ import SwiftUI
 struct RecipeListView: View {
     @EnvironmentObject var modelData: ModelData
     
+    @State private var showFavoritesOnly = false
+    
+    var filteredRecipes: [Recipe] {
+        modelData.recipes.filter { recipe in
+            (!showFavoritesOnly || recipe.isFavorite)
+        }
+    }
+    
     var body: some View {
         NavigationView {
             List {
-                ForEach(ModelData().recipes) { recipe in
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites Only")
+                }
+                ForEach(filteredRecipes) { recipe in
                     NavigationLink {
                         RecipeDetailView(recipe: recipe)
                             .environmentObject(ModelData())
