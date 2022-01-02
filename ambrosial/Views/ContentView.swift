@@ -25,11 +25,13 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
+                .environmentObject(modelData)
             RecipeView()
                 .tabItem {
                     Image(systemName: "doc.plaintext.fill")
                     Text("Recipes")
                 }
+                .environmentObject(modelData)
             SettingView()
                 .tabItem {
                     Image(systemName: "gear")

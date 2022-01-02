@@ -9,8 +9,11 @@ import SwiftUI
 
 struct RecipeView: View {
         
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         RecipeListView()
+            .environmentObject(modelData)
 
     }
 }
