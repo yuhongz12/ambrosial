@@ -29,7 +29,7 @@ struct ContentView: View {
             RecipeView()
                 .tabItem {
                     Image(systemName: "doc.plaintext.fill")
-                    Text("Recipe")
+                    Text("Recipes")
                 }
             SettingView()
                 .tabItem {

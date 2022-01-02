@@ -1,6 +1,8 @@
 [
     {
-        "id" : 1001,
+        "id" : 10001,
+        "recipeName" : "My Recipe1",
+        "recipeDate" : "1/1/2022",
         "isFavorite" : true,
         "brewMethod" : "Aeropress",
         "coffeeFilter" : "Aeropress Original Filter",
@@ -10,9 +12,11 @@
         "grindSize" : "course",
         "temperature" : 95,
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+    },
     {
-        "id" : 1002,
+        "id" : 10002,
+        "recipeName" : "My Recipe2",
+        "recipeDate" : "2/2/2022",
         "isFavorite" : false,
         "brewMethod" : "Hario Plastic V60",
         "coffeeFilter" : "Cafec Abaca V60",
@@ -22,9 +26,11 @@
         "grindSize" : "fine",
         "temperature" : 90,
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+    },
     {
-        "id" : 1003,
+        "id" : 10003,
+        "recipeName" : "My Recipe3",
+        "recipeDate" : "3/3/2022",
         "isFavorite" : true,
         "brewMethod" : "Hario Ceramic V60",
         "coffeeFilter" : "Cafec Abaca V60",
@@ -34,9 +40,11 @@
         "grindSize" : "fine",
         "temperature" : 90,
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+    },
     {
-        "id" : 1004,
+        "id" : 10004,
+        "recipeName" : "My Recipe4",
+        "recipeDate" : "4/4/2022",
         "isFavorite" : true,
         "brewMethod" : "Aeropress",
         "coffeeFilter" : "Cafec Abaca V60",
@@ -46,9 +54,11 @@
         "grindSize" : "fine",
         "temperature" : 100,
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }
+    },
     {
-        "id" : 1005,
+        "id" : 10005,
+        "recipeName" : "My Recipe5",
+        "recipeDate" : "5/5/2022",
         "isFavorite" : false,
         "brewMethod" : "Hario Plastic V60",
         "coffeeFilter" : "Cafec Abaca V60",

@@ -13,6 +13,7 @@ final class ModelData: ObservableObject {
     @Published var brewMethods: [BrewMethod] = load("brewmethodData.json")
     @Published var beans: [Bean] = load("beanData.json")
     @Published var coffeeFilters: [CoffeeFilter] = load("coffeefilterData.json")
+    @Published var recipes: [Recipe] = load("recipeList.json")
     
 }
 

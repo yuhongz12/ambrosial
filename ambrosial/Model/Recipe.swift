@@ -11,6 +11,10 @@ import SwiftUI
 struct Recipe: Decodable, Identifiable {
     var id: Int
     
+    var recipeName: String
+    var recipeDate: String
+    var isFavorite: Bool
+    
     var brewMethod: String
     var coffeeFilter: String
     
@@ -23,7 +27,7 @@ struct Recipe: Decodable, Identifiable {
     
     var temperature: Int
     var description: String
-    
+
     
     
 }
